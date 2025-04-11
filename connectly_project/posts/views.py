@@ -46,7 +46,6 @@ class UserListCreate(APIView):
         # print('Are they the same? ', firstPassword is secondPassword): Outputs False, indicating firstPassword and secondPassword are different instances.
 
 
-
         
         hashed_password = make_password("mypassword123")
         # print(hashed_password)  # Outputs a hashed version of the password
